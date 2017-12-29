@@ -1,0 +1,3 @@
+[submodule "eureka-server"]
+	path = eureka-server
+	url = git@github.com:SpringCloudify/eureka-server.git
