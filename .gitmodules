@@ -4,3 +4,6 @@
 [submodule "eureka-client"]
     path = eureka-client
     url = git@github.com:SpringCloudify/eureka-client.git
+[submodule "consul-client"]
+	path = consul-client
+	url = git@github.com:SpringCloudify/consul-client.git
