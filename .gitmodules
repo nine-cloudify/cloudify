@@ -13,3 +13,6 @@
 [submodule "eureka-consumer-ribbon"]
 	path = eureka-consumer-ribbon
 	url = git@github.com:SpringCloudify/eureka-consumer-ribbon.git
+[submodule "eureka-consumer-feign"]
+	path = eureka-consumer-feign
+	url = git@github.com:SpringCloudify/eureka-consumer-feign.git
