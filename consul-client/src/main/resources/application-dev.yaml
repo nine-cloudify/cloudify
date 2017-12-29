@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: consul-client
+  cloud:
+    consul:
+      host: ${eureka.instance.hostname}
+      port: ${eureka.client.serviceUrl.eureka-server-port}
+server:
+  port: 21121
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.client.serviceUrl.eureka-server-port}/eureka/

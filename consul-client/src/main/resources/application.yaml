@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      eureka-server-port: 11111
