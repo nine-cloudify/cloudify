@@ -16,3 +16,9 @@
 [submodule "eureka-consumer-feign"]
 	path = eureka-consumer-feign
 	url = git@github.com:SpringCloudify/eureka-consumer-feign.git
+[submodule "config-client"]
+	path = config-client
+	url = git@github.com:SpringCloudify/config-client.git
+[submodule "config-server"]
+	path = config-server
+	url = git@github.com:SpringCloudify/config-server.git
