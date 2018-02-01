@@ -1,11 +1,7 @@
 spring:
-  application:
-    name: config-client
   cloud:
     config:
+      name: config-server
       uri: http://localhost:1201/
-      profile: dev
+      profile: defualt
       label: master
-
-server:
-  port: 2001

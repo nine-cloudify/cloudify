@@ -7,7 +7,7 @@ spring:
         git:
           uri: git@github.com:SpringCloudify/config-repo-demo.git
           username: yunsu2
-          password: san.1415926
+          password: XXXXX
 server:
   port: 1201
 
