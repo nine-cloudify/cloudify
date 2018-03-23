@@ -2,7 +2,8 @@
 
 ## 服务治理
 ### 注册中心
-1. eureka-server   
+
+#### eureka-server   
 ```yaml
 spring:
   application:
@@ -22,7 +23,8 @@ eureka:
 
 ```
 
-1. eureka-client
+
+#### eureka-client
 
 ```yaml
 eureka:
@@ -48,7 +50,8 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${eureka.client.serviceUrl.eureka-server-port}/eureka/
 ```
 
-1. eureka-consumer
+
+#### eureka-consumer
 ```yaml
 eureka:
   instance:
