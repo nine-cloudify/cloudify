@@ -65,7 +65,7 @@ spring:
     name: eureka-consumer
 
 server:
-  port: 33331
+  port: 3x111
 
 eureka:
   client:
