@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    config:
-      name: config-server
-      uri: http://localhost:1201/
-      profile: defualt
-      label: master
