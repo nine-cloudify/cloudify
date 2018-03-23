@@ -93,7 +93,7 @@ spring:
         git:
           uri: git@github.com:SpringCloudify/config-repo-demo.git
 server:
-  port: 1201
+  port: 
 
 ```
 
@@ -105,7 +105,7 @@ spring:
     name: config-client
 
 server:
-  port: 22001
+  port: 12111
 ```
 
 ___bootstrap.yaml___
