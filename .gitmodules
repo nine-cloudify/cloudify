@@ -22,6 +22,3 @@
 [submodule "config-server"]
 	path = config-server
 	url = git@github.com:SpringCloudify/config-server.git
-[submodule "config-repo-demo"]
-	path = config-repo-demo
-	url = git@github.com:SpringCloudify/config-repo-demo.git
