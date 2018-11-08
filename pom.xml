@@ -5,6 +5,7 @@
 
     <groupId>com.springcloudify</groupId>
     <artifactId>cloudy</artifactId>
+    <artifactId>cloudify</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -15,6 +16,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.0.RELEASE</version>
+        <version>2.0.2.RELEASE</version>
     </parent>
 
     <modules>

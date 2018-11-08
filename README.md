@@ -11,7 +11,7 @@ spring:
     name: eureka-server
 
 server:
-  port: 11111
+  port: 11001
 
 eureka:
   instance:
@@ -33,7 +33,7 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      eureka-server-port: 11111
+      eureka-server-port: 11001
 
 ```
 
@@ -43,7 +43,7 @@ spring:
     name: eureka-client
 
 server:
-  port: 21111
+  port: 12001
 
 eureka:
   client:
@@ -59,7 +59,7 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      eureka-server-port: 11111
+      eureka-server-port: 11001
 
 ```
 
@@ -69,7 +69,7 @@ spring:
     name: eureka-consumer
 
 server:
-  port: 3x111
+  port: 13001
 
 eureka:
   client:
@@ -105,7 +105,7 @@ spring:
     name: config-client
 
 server:
-  port: 12111
+  port: 13001
 ```
 
 ___bootstrap.yaml___
@@ -114,7 +114,7 @@ spring:
   cloud:
     config:
       name: config-client
-      uri: http://localhost:1201/
+      uri: http://localhost:12001/
       profile: defualt
       label: master
 ```
