@@ -1,6 +1,6 @@
 [submodule "config-repo"]
-    path = eureka-server
-    url = git@github.com:SpringCloudify/config-repo.git
+	path = config-repo
+	url = git@github.com:SpringCloudify/cloudify.git
 [submodule "eureka-server"]
     path = eureka-server
     url = git@github.com:SpringCloudify/eureka-server.git
