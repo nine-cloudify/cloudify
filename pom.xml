@@ -8,13 +8,17 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>cloudy</name>
+    <name>cloudify</name>
     <description>spring cloud</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>2.0.7.RELEASE</version>
+=======
+        <version>2.0.6.RELEASE</version>
+>>>>>>> 0fe5e80169f7587f2f73eb689a3e517113357d31
     </parent>
 
     <modules>
@@ -32,7 +36,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+<<<<<<< HEAD
         <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+=======
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+>>>>>>> 0fe5e80169f7587f2f73eb689a3e517113357d31
     </properties>
 
     <dependencies>
