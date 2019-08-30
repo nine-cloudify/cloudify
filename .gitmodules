@@ -1,27 +1,30 @@
-[submodule "config-repo"]
-	path = config-repo
-    url = git@github.com:SpringCloudify/config-repo.git
 [submodule "eureka-server"]
     path = eureka-server
-    url = git@github.com:SpringCloudify/eureka-server.git
+    url = git@github.com:NineSwordsMonster/eureka-server.git
 [submodule "eureka-client"]
     path = eureka-client
-    url = git@github.com:SpringCloudify/eureka-client.git
+    url = git@github.com:NineSwordsMonster/eureka-client.git
 [submodule "consul-client"]
 	path = consul-client
-	url = git@github.com:SpringCloudify/consul-client.git
+	url = git@github.com:NineSwordsMonster/consul-client.git
 [submodule "eureka-consumer"]
 	path = eureka-consumer
-	url = git@github.com:SpringCloudify/eureka-consumer.git
+	url = git@github.com:NineSwordsMonster/eureka-consumer.git
 [submodule "eureka-consumer-ribbon"]
 	path = eureka-consumer-ribbon
-	url = git@github.com:SpringCloudify/eureka-consumer-ribbon.git
+	url = git@github.com:NineSwordsMonster/eureka-consumer-ribbon.git
 [submodule "eureka-consumer-feign"]
 	path = eureka-consumer-feign
-	url = git@github.com:SpringCloudify/eureka-consumer-feign.git
+	url = git@github.com:NineSwordsMonster/eureka-consumer-feign.git
 [submodule "config-client"]
 	path = config-client
-	url = git@github.com:SpringCloudify/config-client.git
+	url = git@github.com:NineSwordsMonster/config-client.git
 [submodule "config-server"]
 	path = config-server
-	url = git@github.com:SpringCloudify/config-server.git
+	url = git@github.com:NineSwordsMonster/config-server.git
+[submodule "eureka-gateway"]
+	path = eureka-gateway
+	url = git@github.com:NineSwordsMonster/eureka-gateway.git
+[submodule "config-repo"]
+	path = config-repo
+	url = git@github.com:NineSwordsMonster/config-repo.git

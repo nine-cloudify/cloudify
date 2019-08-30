@@ -14,12 +14,17 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>2.1.7.RELEASE</version>
+=======
+        <version>2.0.7.RELEASE</version>
+>>>>>>> 1103f73410743ad41aa5a876c41a304adca4bef8
     </parent>
 
     <modules>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>eureka-gateway</module>
         <module>eureka-consumer</module>
         <module>eureka-consumer-feign</module>
         <module>eureka-consumer-ribbon</module>
@@ -32,8 +37,32 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
